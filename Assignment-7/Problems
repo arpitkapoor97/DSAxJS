@@ -1,0 +1,30 @@
+1. Given an integer array nums of length n and an integer target, find three integers in nums
+such that the sum is closest to the target.[Amazon]
+You need to return the sum of three integers.
+For example:arr = [-1, 2, 1, -4], target = 1
+Output: 2
+Explanation: [-1+2+1] = 2 (The sum that is closest to the target is 2)
+
+2. Given three points, check whether they lie on a straight (collinear) or not. [Google]
+For example:
+Input- [(1,1), (1,6), (0,9)]
+Output- No
+Input- [(1,1), (1,4), (1,5)]
+Output- Yes
+
+3. An e-commerce site tracks the purchases made each day. The product that is purchased
+the most one day is the featured product for the following day. If there is a tie for the product
+purchased most frequently, those product names are ordered alphabetically ascending and
+the last name in the list is chosen.[Amazon]
+['yellowShirt', 'redHat', 'blackShirt', 'bluePants', 'redHat','pinkHat', 'blackShirt', 'yellowShirt',
+'greenPants', 'greenPants', 'greenPants']
+'yellowShirt' - 2
+'redHat' - 2
+'blackShirt' - 2
+'bluePants' - 1
+'greenPants' - 3
+'pinkHat' - 1
+Output - greenPants
+
+4. An almost sorted array is given to us and the task is to sort that array completely. Then,
+which sorting algorithm would you prefer and why?[Salesforce]
